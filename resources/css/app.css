@@ -1,0 +1,60 @@
+:root{
+  --brand-navy: #152c5e;
+  --brand-green: #a5c07d;
+  --white: #ffffff;
+}
+
+body{
+  font-family: "Cairo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+body.bg-slate-950.text-slate-100.min-h-screen{
+  background-color: #ffffff !important;
+}
+
+header.border-b.border-slate-800.bg-slate-950\/80.backdrop-blur.sticky.top-0.z-20,
+.max-w-7xl.mx-auto.px-6.py-4.flex.items-center.justify-between.gap-4{
+  background-color: var(--brand-navy) !important;
+}
+
+button#refreshWalletsBtn,
+button#clearOutBtn,
+button#healthBtn{
+  background-color: var(--brand-green) !important;
+  font-family: "Cairo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 600;
+}
+
+span#healthPill{
+  background-color: var(--brand-green) !important;
+  color: var(--white) !important;
+}
+
+pre#out{
+  background-color: var(--brand-navy) !important;
+}
+
+.rounded-2xl.border.border-slate-800.bg-slate-900.p-5{
+  background-color: var(--brand-green) !important;
+}
+
+p.text-slate-400.text-sm,
+p.text-slate-400.text-xs.mt-1,
+li{
+  color: var(--white) !important;
+  font-family: "Cairo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-weight: 500;
+}
+
+details.group.border-b.border-slate-800,
+details.group{
+  background-color: var(--brand-navy) !important;
+}
+
+h1.text-xl.font-bold,
+h2.font-bold,
+p.font-semibold,
+h3.font-bold.mb-2{
+  font-family: "Cairo", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
